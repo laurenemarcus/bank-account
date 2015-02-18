@@ -19,7 +19,7 @@
             <label for="new-name">Your name</label>
             <input type="text" class="form-control" id="new-name">
             <label for="initial-deposit">Initial deposit</label>
-            <input type="text" class="form-control" id="initial-deposit">
+            <input type="text" class="form-control" id="initial-deposit" pattern="\d*">
           </div>
           <button type="submit" class="btn">Create bank account</button>
         </form>
@@ -32,9 +32,9 @@
         <form id="deposit-withdraw">
           <div class="form-group">
             <label for="new-deposit">Deposit amount</label>
-            <input type="text" class="form-control" id="new-deposit" required>
+            <input type="text" class="form-control" id="new-deposit" pattern="\d*" required>
             <label for="new-withdraw">Withdraw amount</label>
-            <input type="text" class="form-control" id="new-withdraw" required>
+            <input type="text" class="form-control" id="new-withdraw" pattern="\d*" required>
           </div>
           <button type="submit" class="btn">Submit</button>
         </form>
@@ -45,7 +45,7 @@
     <h2>Your bank account's balance</h2>
       <div class="col-md-6">
         <div id="show-balance">
-          <h2><span class="balance-display"></span></h2>
+          <h2>$<span class="balance-display">.00</span></h2>
         </div>
       </div>
     </div>
