@@ -14,7 +14,7 @@ Open the following file in directory to launch the app:
 
 KNOWN BUGS
 ---------
-Only accepts integers. Does not control for letters or special characters. Requires both deposit and withdraw fields to be filled.
+Only accepts integers. Requires both deposit and withdraw fields to be filled.
 
 AUTHOR
 -------
