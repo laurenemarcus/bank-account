@@ -1,0 +1,12 @@
+#show-balance {
+  display: none;
+}
+
+.balance {
+  padding: 0px 10px 10px 10px;
+  margin:  50px auto;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  
+}

@@ -19,6 +19,8 @@ $(document).ready(function() {
 
     $(".balance-display").text(newAccount.balance);
 
+    $("#show-balance").show();
+
     $("input#new-name").val("");
     $("input#initial-deposit").val("");
 
@@ -31,6 +33,8 @@ $(document).ready(function() {
       newAccount.deposit(deposit);
       newAccount.withdraw(withdraw);
       $(".balance-display").text(newAccount.balance);
+
+      $("#show-balance").show();
 
       $("input#new-deposit").val("");
       $("input#new-withdraw").val("");
